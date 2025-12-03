@@ -1,0 +1,25 @@
+/* -----------------------------------------
+   STUDENT REQUESTS PAGE (Faculty Side)
+------------------------------------------*/
+
+.request-card {
+    padding: 20px;
+    border-radius: 14px;
+    background: #fff;
+    border-left: 6px solid #1f75fe;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.request-card h4 {
+    font-weight: 700;
+}
+
+.request-card small {
+    color: #777;
+}
+
+.request-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}

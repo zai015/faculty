@@ -1,0 +1,27 @@
+/* -----------------------------------------
+   CREATE BOOKING PAGE
+------------------------------------------*/
+
+.form-section {
+    background: #fff;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+label {
+    font-weight: 600;
+}
+
+input, select {
+    border-radius: 10px !important;
+}
+
+#conflict-alert {
+    display: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fee2e2;
+    color: #b91c1c;
+    font-weight: 600;
+}

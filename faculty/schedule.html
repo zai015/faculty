@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Schedule — Calendar</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FullCalendar CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/calendar.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand text-danger fw-bold" href="index.html">Booking — Faculty</a>
+  </div>
+</nav>
+
+<main class="container mt-4">
+  <div class="row g-3">
+    <div class="col-md-3">
+      <div class="card p-3">
+        <h6>Filter</h6>
+        <div class="mb-2">
+          <label class="form-label small">Building</label>
+          <select id="calBuilding" class="form-select" name="calBuilding"></select>
+        </div>
+        <div class="mb-2">
+          <label class="form-label small">Room</label>
+          <select id="calRoom" class="form-select" name="calRoom"></select>
+        </div>
+        <button id="applyCalFilter" class="btn btn-primary w-100">Apply</button>
+      </div>
+      <div class="mt-3">
+        <a href="rooms.html" class="btn btn-outline-secondary w-100">Back to Rooms</a>
+      </div>
+    </div>
+
+    <div class="col-md-9">
+      <div id="calendar"></div>
+    </div>
+  </div>
+</main>
+
+<!-- event detail modal -->
+<div class="modal fade" id="eventDetailModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content p-3">
+      <div class="modal-header">
+        <h5 class="modal-title">Event Details</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div id="eventInfo"></div>
+        <div class="mt-3" id="eventActions"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- FullCalendar -->
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.js"></script>
+
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/utils.js" defer></script>
+<script src="assets/js/calendar.js" defer></script>
+</body>
+</html>

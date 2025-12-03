@@ -1,0 +1,27 @@
+/* -----------------------------------------
+   MY BOOKINGS PAGE
+------------------------------------------*/
+
+.actions-btn {
+    display: flex;
+    gap: 8px;
+}
+
+.badge-status {
+    padding: 6px 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.badge-active {
+    background: #1f75fe;
+}
+
+.badge-cancelled {
+    background: #ef4444;
+}
+
+.badge-completed {
+    background: #22c55e;
+}

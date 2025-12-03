@@ -1,0 +1,42 @@
+/* -----------------------------------------
+   ROOM AVAILABILITY PAGE
+------------------------------------------*/
+
+.room-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.room-box {
+    padding: 18px;
+    background: #ffffff;
+    border-radius: 14px;
+    text-align: center;
+    border-left: 6px solid #1f2937;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.room-box:hover {
+    transform: translateY(-5px);
+}
+
+.room-available {
+    border-left-color: #22c55e;
+}
+
+.room-occupied {
+    border-left-color: #ef4444;
+}
+
+.room-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.room-status {
+    font-size: 0.85rem;
+    font-weight: 600;
+}

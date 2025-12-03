@@ -1,0 +1,25 @@
+/* -----------------------------------------
+   FULLCALENDAR PAGE
+------------------------------------------*/
+
+#calendar {
+    background: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.fc-button {
+    border-radius: 8px !important;
+    background: #1f75fe !important;
+    border: none !important;
+}
+
+.fc-button:hover {
+    background: #005ce6 !important;
+}
+
+.fc-toolbar-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+}

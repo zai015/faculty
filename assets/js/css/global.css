@@ -1,0 +1,53 @@
+/* -----------------------------------------
+   GLOBAL STYLING (shared across the system)
+------------------------------------------*/
+
+body {
+    background: #f5f7fb;
+    font-family: "Segoe UI", Roboto, system-ui, sans-serif;
+}
+
+.navbar {
+    background: #1f2937 !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.page-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.btn-primary {
+    background: #1f75fe;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #005ce6;
+}
+
+.table th {
+    background: #1f2937;
+    color: #fff;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.modal-header {
+    background: #1f2937;
+    color: #fff;
+}
